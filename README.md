@@ -13,7 +13,7 @@ Font generated through [Mikroe GLCD Font Creator](https://www.mikroe.com/glcd-fo
 
 ### [Adding other Nepali fonts]
 
-The available font is 63x85. It is generated from preeti font at 72 size. The font can be scaled down using PreetiTest function. If memory and computaion is limited you may prefer to have seperate font, following is the procedure:
+The available font is Preeti 63x85. It is generated from preeti font at 72 size. The font can be scaled down using PreetiTest function. If memory and computaion is limited you may prefer to have seperate font, following is the procedure:
 
 1. Run GLCD Font Creator
 2. Create new font with your desired font and size
