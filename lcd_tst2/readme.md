@@ -9,3 +9,8 @@ The example is based on STM32L432KC. Following pins are used:
 |GPIO          |PA3        |CS     |
 |GPIO          |PA4        |RST    |
 |GPIO          |PA5        |DC     |
+------------------------------------
+
+Copy driver source codes to Inc and Src folder for headers and source codes respectively.
+Edit ILI9341_STM32_Driver.h to configure to your respective STM device and pins if other pins are used.
+Include the header files in main.c and you are good to go.
