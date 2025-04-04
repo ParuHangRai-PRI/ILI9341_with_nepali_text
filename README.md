@@ -21,9 +21,12 @@ The available font is 63x85. It is generated from preeti font at 72 size. The fo
 5. Some letters(झ, ष, क्ष, फ, ण) are formed by combining half letters(ह्रस्व अक्षर) with other as such the half letteres should be moved to fit.
 6. Export it in mikroC format
 7. Modify data type to uint8_t
-8. Add 4 byte
+8. Add 4 additional bytes:
    1.  Offset: the number of bytes representing a letter
    2.  Width: maximum width of the character
    3.  Height: maximum height of the character
    4.  BPL: ceil(Height/8)
 9. Add it to fonts.h
+
+"drivers" folder contains additional source code either for driver or for drawing images. "lcd_tst2" folder is an example of the implementation based on STM32L432KC
+
