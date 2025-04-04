@@ -7,11 +7,12 @@ The drivers are taken in reference to:
 
 Font generated through [Mikroe GLCD Font Creator](https://www.mikroe.com/glcd-font-creator), same as in [Eziya](https://github.com/eziya/STM32_HAL_ILI9341) repository.
 
-[Modification]
+###[Modification]
 1. Added PreetiText and Nep_Char to plot nepali letters.
 2. Rearranged SPI functions to suit the LCD
 
-[Adding other Nepali fonts]
+###[Adding other Nepali fonts]
+
 The available font is 63x85. It is generated from preeti font at 72 size. The font can be scaled down using PreetiTest function. If memory and computaion is limited you may prefer to have seperate font, following is the procedure:
 
 1. Run GLCD Font Creator
