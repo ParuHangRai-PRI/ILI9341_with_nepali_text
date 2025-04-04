@@ -18,5 +18,12 @@ The available font is 63x85. It is generated from preeti font at 72 size. The fo
 2. Create new font with your desired font and size
 3. You need to mannualy create some fonts, especially for मात्रा( ि, ी, ु, े, etc). "द्य" has been replaced with "ङ", so change it.
 4. Move bitmap images of font to middle, leave ( ि, ी, ा) as it is.
-5. Some letters(झ, ष, क्ष, फ, ण) are formed by combining half letters(ह्रस्व अक्षर) with other as such the half letteres should me moved to fit.
-6. 
+5. Some letters(झ, ष, क्ष, फ, ण) are formed by combining half letters(ह्रस्व अक्षर) with other as such the half letteres should be moved to fit.
+6. Export it in mikroC format
+7. Modify data type to uint8_t
+8. Add 4 byte
+   1.  Offset: the number of bytes representing a letter
+   2.  Width: maximum width of the character
+   3.  Height: maximum height of the character
+   4.  BPL: ceil(Height/8)
+9. Add it to fonts.h
